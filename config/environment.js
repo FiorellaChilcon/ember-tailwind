@@ -3,6 +3,7 @@
 module.exports = function (environment) {
   let ENV = {
     modulePrefix: 'ember-tailwind',
+    podModulePrefix: 'ember-tailwind/pods',
     environment,
     rootURL: '/',
     locationType: 'auto',
