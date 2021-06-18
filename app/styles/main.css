@@ -1,0 +1,7 @@
+.media-icon {
+  @apply p-2 rounded-full bg-primary;
+}
+
+.btn {
+  @apply w-full p-2 m-auto text-white transition duration-500 ease-in-out transform rounded-md hover:-translate-y-1 hover:scale-105 bg-gradient-to-r from-primary to-secondary hover:from-secondary hover:to-tertiary focus:ring-4 focus:ring-primary focus:ring-opacity-50 focus:outline-none;
+}
